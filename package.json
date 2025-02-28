@@ -1,0 +1,60 @@
+{
+  "private": true,
+  "homepage": "https://Itsmhmod.github.io/mhmod-portfolio",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache --fix --max-warnings 0 ./src/",
+    "format": "prettier --cache --write .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-tsparticles": "^1.43.1",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@eslint/js": "^9.21.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^9.21.0",
+    "eslint-plugin-perfectionist": "^4.9.0",
+    "husky": "^9.1.7",
+    "jest-canvas-mock": "^2.5.2",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.85.1",
+    "stylelint": "^16.14.1",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "typescript": "^4.9.5",
+    "typescript-eslint": "^8.24.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts,tsx}",
+      "!**/index.{js,jsx,ts,tsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/types/"
+    ]
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31",
+    "resolve-url-loader": "^5.0.0"
+  }
+}
