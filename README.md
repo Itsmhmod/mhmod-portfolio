@@ -27,7 +27,7 @@ Welcome to my personal website repository! This project showcases my portfolio, 
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Itsmhmod/my-website.git
+   git clone https://github.com/Itsmhmod/mhmod-portfolio.git
    ```
 2. Install dependencies:
    ```bash
@@ -47,7 +47,7 @@ Welcome to my personal website repository! This project showcases my portfolio, 
 ## 📬 Contact
 Feel free to connect with me:
 - **GitHub**: [Itsmhmod](https://github.com/Itsmhmod)
-- **LinkedIn**: [Mahmoud Himeda](https://www.linkedin.com/in/mahmoud-himeda)
+- **LinkedIn**: [Mahmoud Himeda](https://www.linkedin.com/in/its-mhmod)
 
 ---
 ⚡ **Mahmoud Himeda – Cyber Security Engineer & Developer**
