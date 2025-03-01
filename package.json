@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://Itsmhmod.github.io/mhmod-portfolio",
+  "homepage": "https://itsmhmod.github.io/mhmod-portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
